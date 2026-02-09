@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Know Your Next Move | Chowder Media</title>
+    <meta
+      name="description"
+      content="Analyze any YouTube video and get an outsider, analytical B2B marketer's perspective on audience, retention drop-offs, and next content moves."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="logo-block">
+          <img
+            src="assets/chowder-logo-placeholder.svg"
+            alt="Chowder Media"
+            class="logo"
+          />
+          <span class="logo-text">CHOWDER MEDIA</span>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Lead magnet for serious B2B marketers</p>
+            <h1>Know Your Next Move</h1>
+            <p class="subhead">
+              Paste any YouTube link and get an outsider, analytical B2B perspective
+              on who the content is really for, where attention drops, and what to
+              publish next to drive revenue.
+            </p>
+            <div class="hero-meta">
+              <div class="meta-pill">Public or unlisted</div>
+              <div class="meta-pill">English only</div>
+              <div class="meta-pill">Mobile-first</div>
+            </div>
+          </div>
+          <div class="hero-card">
+            <form id="analyze-form" class="input-card" novalidate>
+              <label for="youtube-url">YouTube link</label>
+              <div class="input-row">
+                <input
+                  id="youtube-url"
+                  name="youtube-url"
+                  type="url"
+                  placeholder="https://www.youtube.com/watch?v=..."
+                  autocomplete="off"
+                  required
+                />
+                <button id="analyze-button" class="primary-button" type="submit">
+                  Analyze
+                </button>
+              </div>
+              <p id="url-error" class="field-error" role="alert"></p>
+              <p class="form-help">
+                We only accept public or unlisted videos. If the transcript is missing
+                or incoherent, we will let you know instantly.
+              </p>
+            </form>
+
+            <div id="loading" class="loading" aria-live="polite">
+              <div class="loading-icon" aria-hidden="true">ELF</div>
+              <div>
+                <p class="loading-title">Our Chowder video elves are analyzing your video...</p>
+                <ul class="loading-steps">
+                  <li class="loading-step" data-step="0">Summoning transcript</li>
+                  <li class="loading-step" data-step="1">Plotting retention curve</li>
+                  <li class="loading-step" data-step="2">Growing the story tree</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="results" class="results" aria-live="polite">
+          <div class="section-header">
+            <div>
+              <h2>Your analysis</h2>
+              <p class="section-subhead">A clear snapshot for B2B teams that need to grow revenue.</p>
+            </div>
+            <div class="pill">Built for Chowder Media</div>
+          </div>
+
+          <div class="cards">
+            <article class="card">
+              <header>
+                <h3>Target audience</h3>
+                <span class="card-tag">Structured brief</span>
+              </header>
+              <div class="card-grid">
+                <div>
+                  <h4>Primary ICP</h4>
+                  <p id="audience-primary">APAC B2B leaders in mid-market firms seeking pipeline efficiency.</p>
+                </div>
+                <div>
+                  <h4>Key pain points</h4>
+                  <p id="audience-pain">Inconsistent lead quality, long sales cycles, underperforming content.</p>
+                </div>
+                <div>
+                  <h4>Intent signals</h4>
+                  <p id="audience-intent">Looking for measurable, revenue-tied content strategy outcomes.</p>
+                </div>
+                <div>
+                  <h4>Decision drivers</h4>
+                  <p id="audience-drivers">Proof of ROI, speed to impact, leadership alignment.</p>
+                </div>
+              </div>
+            </article>
+
+            <article class="card">
+              <header>
+                <h3>Retention drop-offs</h3>
+                <span class="card-tag">Baseline curve</span>
+              </header>
+              <div class="retention">
+                <div class="retention-chart" aria-hidden="true">
+                  <svg viewBox="0 0 300 160" role="img" aria-label="Retention curve">
+                    <defs>
+                      <linearGradient id="curve" x1="0" y1="0" x2="1" y2="0">
+                        <stop offset="0%" stop-color="#2563EB" />
+                        <stop offset="100%" stop-color="#FF662E" />
+                      </linearGradient>
+                    </defs>
+                    <path
+                      d="M10 30 C 60 40, 90 80, 120 92 C 150 104, 200 120, 290 130"
+                      fill="none"
+                      stroke="url(#curve)"
+                      stroke-width="6"
+                      stroke-linecap="round"
+                    />
+                    <circle cx="90" cy="80" r="6" fill="#FF662E" />
+                    <circle cx="160" cy="108" r="6" fill="#FF662E" />
+                    <circle cx="230" cy="122" r="6" fill="#FF662E" />
+                  </svg>
+                  <div class="chart-legend">
+                    <span>Baseline retention curve</span>
+                    <span>Likely drop-off points</span>
+                  </div>
+                </div>
+                <div class="retention-details">
+                  <h4>Likely drop-off timestamps</h4>
+                  <ul id="retention-list" class="retention-list">
+                    <li><strong>00:35</strong> Intro exceeds typical patience window.</li>
+                    <li><strong>02:10</strong> First proof point appears too late.</li>
+                    <li><strong>04:40</strong> CTA transitions without recap.</li>
+                  </ul>
+                  <p class="retention-note">
+                    Compared to a typical YouTube retention curve for B2B content of similar length.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <article class="card gate" id="story-card">
+            <header>
+              <h3>Story tree</h3>
+              <span class="card-tag">Gated insight</span>
+            </header>
+            <div class="gate-body">
+              <div class="story-locked" id="story-locked">
+                <div class="lock-copy">
+                  <h4>Unlock your next 3-5 growth moves</h4>
+                  <p>
+                    Enter your work email to access the story tree. We will email a branded PDF
+                    download link so you can share it with your team.
+                  </p>
+                </div>
+                <form id="gate-form" class="gate-form" novalidate>
+                  <label for="name">Full name</label>
+                  <input id="name" name="name" type="text" placeholder="Jordan Lee" required />
+
+                  <label for="email">Work email</label>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="jordan@company.com"
+                    required
+                  />
+                  <p id="email-warning" class="field-warning"></p>
+
+                  <label class="checkbox">
+                    <input id="consent" name="consent" type="checkbox" />
+                    I would like Chowder Media to share relevant insights by email.
+                  </label>
+
+                  <button id="unlock-button" class="primary-button" type="submit">
+                    Unlock story tree
+                  </button>
+                  <p id="gate-status" class="gate-status" role="status"></p>
+                </form>
+              </div>
+
+              <div class="story-unlocked" id="story-unlocked" hidden>
+                <div class="story-grid">
+                  <div class="story-column">
+                    <h4>Awareness</h4>
+                    <ol id="story-awareness" class="story-list">
+                      <li>
+                        <strong>Industry truth video</strong>
+                        <p>Why APAC B2B demand gen stalls at 30 days, and how to fix it.</p>
+                      </li>
+                      <li>
+                        <strong>Founder POV</strong>
+                        <p>The 3 signals we watch before a pipeline breaks.</p>
+                      </li>
+                    </ol>
+                  </div>
+                  <div class="story-column">
+                    <h4>Consideration</h4>
+                    <ol id="story-consideration" class="story-list">
+                      <li>
+                        <strong>Proof breakdown</strong>
+                        <p>A 90-day content sprint that moved revenue forward.</p>
+                      </li>
+                      <li>
+                        <strong>Method video</strong>
+                        <p>How to structure content briefs for sales alignment.</p>
+                      </li>
+                    </ol>
+                  </div>
+                  <div class="story-column">
+                    <h4>Conversion</h4>
+                    <ol id="story-conversion" class="story-list">
+                      <li>
+                        <strong>Offer spotlight</strong>
+                        <p>Inside the 8k trial package: outcomes, timelines, scope.</p>
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+                <div class="story-footer">
+                  <div>
+                    <h5>PDF delivery</h5>
+                    <p id="pdf-note">We have emailed your branded download link.</p>
+                  </div>
+                  <button class="ghost-button" type="button" id="download-mock">
+                    Download sample PDF
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Chowder Media - Know Your Next Move</p>
+        <p>Retention analysis is benchmarked against reputable industry sources when available.</p>
+      </footer>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

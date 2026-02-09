@@ -1,0 +1,8 @@
+window.APP_CONFIG = {
+  USE_MOCK_ANALYSIS: true,
+  SUPABASE_URL: "",
+  SUPABASE_ANON_KEY: "",
+  SUPABASE_LEADS_TABLE: "leads",
+  SUPABASE_ANALYSES_TABLE: "analyses",
+  PDF_DOWNLOAD_URL: ""
+};
