@@ -1,0 +1,397 @@
+{
+  "generatedAt": "2026-03-04T19:46:20.646Z",
+  "totals": {
+    "sourceBytes": 1954635,
+    "optimizedBytes": 792163,
+    "generatedFiles": 46,
+    "optimizedAssets": 11
+  },
+  "assets": [
+    {
+      "type": "clients",
+      "source": "clients/Enterprise Singapore_idhx-D0Twf_0.png",
+      "sourceBytes": 19372,
+      "sourceWidth": 820,
+      "sourceHeight": 416,
+      "outputs": [
+        {
+          "file": "optimized/clients/enterprise-singapore-idhx-d0twf-0-240.avif",
+          "width": 240,
+          "format": "avif",
+          "bytes": 5895
+        },
+        {
+          "file": "optimized/clients/enterprise-singapore-idhx-d0twf-0-240.webp",
+          "width": 240,
+          "format": "webp",
+          "bytes": 7074
+        },
+        {
+          "file": "optimized/clients/enterprise-singapore-idhx-d0twf-0-360.avif",
+          "width": 360,
+          "format": "avif",
+          "bytes": 8947
+        },
+        {
+          "file": "optimized/clients/enterprise-singapore-idhx-d0twf-0-360.webp",
+          "width": 360,
+          "format": "webp",
+          "bytes": 11656
+        }
+      ],
+      "bestSavingsBytes": 13477
+    },
+    {
+      "type": "clients",
+      "source": "clients/Green-Monday-logo.png",
+      "sourceBytes": 10416,
+      "sourceWidth": 300,
+      "sourceHeight": 300,
+      "outputs": [
+        {
+          "file": "optimized/clients/green-monday-logo-240.avif",
+          "width": 240,
+          "format": "avif",
+          "bytes": 7719
+        },
+        {
+          "file": "optimized/clients/green-monday-logo-240.webp",
+          "width": 240,
+          "format": "webp",
+          "bytes": 8752
+        },
+        {
+          "file": "optimized/clients/green-monday-logo-300.avif",
+          "width": 300,
+          "format": "avif",
+          "bytes": 3423
+        },
+        {
+          "file": "optimized/clients/green-monday-logo-300.webp",
+          "width": 300,
+          "format": "webp",
+          "bytes": 4280
+        }
+      ],
+      "bestSavingsBytes": 6993
+    },
+    {
+      "type": "clients",
+      "source": "clients/HitPay@2x.png",
+      "sourceBytes": 7700,
+      "sourceWidth": 400,
+      "sourceHeight": 99,
+      "outputs": [
+        {
+          "file": "optimized/clients/hitpay-2x-240.avif",
+          "width": 240,
+          "format": "avif",
+          "bytes": 4222
+        },
+        {
+          "file": "optimized/clients/hitpay-2x-240.webp",
+          "width": 240,
+          "format": "webp",
+          "bytes": 6512
+        },
+        {
+          "file": "optimized/clients/hitpay-2x-360.avif",
+          "width": 360,
+          "format": "avif",
+          "bytes": 6795
+        },
+        {
+          "file": "optimized/clients/hitpay-2x-360.webp",
+          "width": 360,
+          "format": "webp",
+          "bytes": 10030
+        }
+      ],
+      "bestSavingsBytes": 3478
+    },
+    {
+      "type": "clients",
+      "source": "clients/London_Business_School_logo.svg.png",
+      "sourceBytes": 70360,
+      "sourceWidth": 1200,
+      "sourceHeight": 1200,
+      "outputs": [
+        {
+          "file": "optimized/clients/london-business-school-logo-svg-240.avif",
+          "width": 240,
+          "format": "avif",
+          "bytes": 4736
+        },
+        {
+          "file": "optimized/clients/london-business-school-logo-svg-240.webp",
+          "width": 240,
+          "format": "webp",
+          "bytes": 6190
+        },
+        {
+          "file": "optimized/clients/london-business-school-logo-svg-360.avif",
+          "width": 360,
+          "format": "avif",
+          "bytes": 6000
+        },
+        {
+          "file": "optimized/clients/london-business-school-logo-svg-360.webp",
+          "width": 360,
+          "format": "webp",
+          "bytes": 8694
+        }
+      ],
+      "bestSavingsBytes": 65624
+    },
+    {
+      "type": "clients",
+      "source": "clients/Musim Mas.png",
+      "sourceBytes": 138334,
+      "sourceWidth": 3461,
+      "sourceHeight": 2480,
+      "outputs": [
+        {
+          "file": "optimized/clients/musim-mas-240.avif",
+          "width": 240,
+          "format": "avif",
+          "bytes": 9401
+        },
+        {
+          "file": "optimized/clients/musim-mas-240.webp",
+          "width": 240,
+          "format": "webp",
+          "bytes": 13662
+        },
+        {
+          "file": "optimized/clients/musim-mas-360.avif",
+          "width": 360,
+          "format": "avif",
+          "bytes": 12747
+        },
+        {
+          "file": "optimized/clients/musim-mas-360.webp",
+          "width": 360,
+          "format": "webp",
+          "bytes": 21204
+        }
+      ],
+      "bestSavingsBytes": 128933
+    },
+    {
+      "type": "clients",
+      "source": "clients/UOB-Logo.png",
+      "sourceBytes": 21105,
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "outputs": [
+        {
+          "file": "optimized/clients/uob-logo-240.avif",
+          "width": 240,
+          "format": "avif",
+          "bytes": 4954
+        },
+        {
+          "file": "optimized/clients/uob-logo-240.webp",
+          "width": 240,
+          "format": "webp",
+          "bytes": 6368
+        },
+        {
+          "file": "optimized/clients/uob-logo-360.avif",
+          "width": 360,
+          "format": "avif",
+          "bytes": 5934
+        },
+        {
+          "file": "optimized/clients/uob-logo-360.webp",
+          "width": 360,
+          "format": "webp",
+          "bytes": 9668
+        }
+      ],
+      "bestSavingsBytes": 16151
+    },
+    {
+      "type": "clients",
+      "source": "clients/fidelity-symbol-1200x628.png",
+      "sourceBytes": 34302,
+      "sourceWidth": 1200,
+      "sourceHeight": 628,
+      "outputs": [
+        {
+          "file": "optimized/clients/fidelity-symbol-1200x628-240.avif",
+          "width": 240,
+          "format": "avif",
+          "bytes": 4364
+        },
+        {
+          "file": "optimized/clients/fidelity-symbol-1200x628-240.webp",
+          "width": 240,
+          "format": "webp",
+          "bytes": 5452
+        },
+        {
+          "file": "optimized/clients/fidelity-symbol-1200x628-360.avif",
+          "width": 360,
+          "format": "avif",
+          "bytes": 6229
+        },
+        {
+          "file": "optimized/clients/fidelity-symbol-1200x628-360.webp",
+          "width": 360,
+          "format": "webp",
+          "bytes": 8446
+        }
+      ],
+      "bestSavingsBytes": 29938
+    },
+    {
+      "type": "clients",
+      "source": "clients/moomoologo.png",
+      "sourceBytes": 3314,
+      "sourceWidth": 331,
+      "sourceHeight": 152,
+      "outputs": [
+        {
+          "file": "optimized/clients/moomoologo-240.avif",
+          "width": 240,
+          "format": "avif",
+          "bytes": 1321
+        },
+        {
+          "file": "optimized/clients/moomoologo-240.webp",
+          "width": 240,
+          "format": "webp",
+          "bytes": 1792
+        },
+        {
+          "file": "optimized/clients/moomoologo-331.avif",
+          "width": 331,
+          "format": "avif",
+          "bytes": 1845
+        },
+        {
+          "file": "optimized/clients/moomoologo-331.webp",
+          "width": 331,
+          "format": "webp",
+          "bytes": 2726
+        }
+      ],
+      "bestSavingsBytes": 1993
+    },
+    {
+      "type": "case-images",
+      "source": "landing/b2b/HitPay-case.png",
+      "sourceBytes": 1378657,
+      "sourceWidth": 1280,
+      "sourceHeight": 720,
+      "outputs": [
+        {
+          "file": "optimized/landing/b2b/hitpay-case-640.avif",
+          "width": 640,
+          "format": "avif",
+          "bytes": 22137
+        },
+        {
+          "file": "optimized/landing/b2b/hitpay-case-640.webp",
+          "width": 640,
+          "format": "webp",
+          "bytes": 36044
+        },
+        {
+          "file": "optimized/landing/b2b/hitpay-case-960.avif",
+          "width": 960,
+          "format": "avif",
+          "bytes": 45554
+        },
+        {
+          "file": "optimized/landing/b2b/hitpay-case-960.webp",
+          "width": 960,
+          "format": "webp",
+          "bytes": 73490
+        },
+        {
+          "file": "optimized/landing/b2b/hitpay-case-1280.avif",
+          "width": 1280,
+          "format": "avif",
+          "bytes": 76564
+        },
+        {
+          "file": "optimized/landing/b2b/hitpay-case-1280.webp",
+          "width": 1280,
+          "format": "webp",
+          "bytes": 121680
+        }
+      ],
+      "bestSavingsBytes": 1356520
+    },
+    {
+      "type": "case-images",
+      "source": "landing/b2b/MasphateChowderMedia.jpg",
+      "sourceBytes": 204194,
+      "sourceWidth": 3422,
+      "sourceHeight": 1926,
+      "outputs": [
+        {
+          "file": "optimized/landing/b2b/masphatechowdermedia-640.avif",
+          "width": 640,
+          "format": "avif",
+          "bytes": 9020
+        },
+        {
+          "file": "optimized/landing/b2b/masphatechowdermedia-640.webp",
+          "width": 640,
+          "format": "webp",
+          "bytes": 15458
+        },
+        {
+          "file": "optimized/landing/b2b/masphatechowdermedia-960.avif",
+          "width": 960,
+          "format": "avif",
+          "bytes": 13842
+        },
+        {
+          "file": "optimized/landing/b2b/masphatechowdermedia-960.webp",
+          "width": 960,
+          "format": "webp",
+          "bytes": 26238
+        },
+        {
+          "file": "optimized/landing/b2b/masphatechowdermedia-1280.avif",
+          "width": 1280,
+          "format": "avif",
+          "bytes": 18464
+        },
+        {
+          "file": "optimized/landing/b2b/masphatechowdermedia-1280.webp",
+          "width": 1280,
+          "format": "webp",
+          "bytes": 36552
+        }
+      ],
+      "bestSavingsBytes": 195174
+    },
+    {
+      "type": "case-images",
+      "source": "landing/b2b/Moomoo-case.jpg",
+      "sourceBytes": 66881,
+      "sourceWidth": 640,
+      "sourceHeight": 480,
+      "outputs": [
+        {
+          "file": "optimized/landing/b2b/moomoo-case-640.avif",
+          "width": 640,
+          "format": "avif",
+          "bytes": 30084
+        },
+        {
+          "file": "optimized/landing/b2b/moomoo-case-640.webp",
+          "width": 640,
+          "format": "webp",
+          "bytes": 39998
+        }
+      ],
+      "bestSavingsBytes": 36797
+    }
+  ]
+}

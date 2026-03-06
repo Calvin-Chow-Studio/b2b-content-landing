@@ -1,0 +1,7 @@
+<svg width="900" height="560" viewBox="0 0 900 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Musim Mas case study placeholder visual">
+  <defs><linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#fff2df"/></linearGradient></defs>
+  <rect width="900" height="560" fill="url(#g2)"/>
+  <rect x="70" y="66" width="760" height="430" rx="28" fill="#ffffff" stroke="#f1debe" stroke-width="4"/>
+  <text x="130" y="210" fill="#1f2933" font-size="54" font-family="Arial, sans-serif" font-weight="700">Musim Mas</text>
+  <text x="130" y="280" fill="#ed8f0c" font-size="34" font-family="Arial, sans-serif">Trust-building Industrial Creative</text>
+</svg>
