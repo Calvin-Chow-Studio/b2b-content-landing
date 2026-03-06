@@ -313,10 +313,7 @@ select {
   width: 16px;
   height: 16px;
   display: inline-block;
-  background-image: url('/icons/arrow-up-right-svgrepo-com.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  flex: 0 0 auto;
 }
 
 .cta-button:hover {
@@ -553,6 +550,11 @@ select {
 
 .logo-image-musim-mas {
   max-height: 34px;
+}
+
+.logo-image-moomoo {
+  max-width: 168px;
+  max-height: 26px;
 }
 
 .logo-name {

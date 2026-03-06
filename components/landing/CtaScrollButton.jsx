@@ -1,6 +1,7 @@
 'use client';
 
 import { trackWorkWithUsClick } from '@/lib/analytics';
+import CtaArrowIcon from '@/components/landing/CtaArrowIcon';
 
 export default function CtaScrollButton({
   className = '',
@@ -26,7 +27,7 @@ export default function CtaScrollButton({
   return (
     <button type="button" className={`cta-button ${className}`.trim()} onClick={onClick}>
       <span>{label}</span>
-      <span className="cta-arrow-icon" aria-hidden="true" />
+      <CtaArrowIcon />
     </button>
   );
 }

@@ -12,23 +12,31 @@ function getLogoSlug(name) {
 function LogoItem({ logo }) {
   const [isBroken, setBroken] = useState(false);
   const logoSlug = getLogoSlug(logo.name);
+  const hasOptimizedSources = Boolean(logo.avifSrc || logo.webpSrc);
+  const image = (
+    <img
+      src={logo.fallbackSrc}
+      alt={logo.alt}
+      width={logo.width}
+      height={logo.height}
+      className={`logo-image logo-image-${logoSlug}`}
+      loading="lazy"
+      onError={() => setBroken(true)}
+    />
+  );
 
   return (
     <div className="logo-pill">
       {!isBroken ? (
-        <picture>
-          <source srcSet={logo.avifSrc} type="image/avif" />
-          <source srcSet={logo.webpSrc} type="image/webp" />
-          <img
-            src={logo.fallbackSrc}
-            alt={logo.alt}
-            width={logo.width}
-            height={logo.height}
-            className={`logo-image logo-image-${logoSlug}`}
-            loading="lazy"
-            onError={() => setBroken(true)}
-          />
-        </picture>
+        hasOptimizedSources ? (
+          <picture>
+            {logo.avifSrc ? <source srcSet={logo.avifSrc} type="image/avif" /> : null}
+            {logo.webpSrc ? <source srcSet={logo.webpSrc} type="image/webp" /> : null}
+            {image}
+          </picture>
+        ) : (
+          image
+        )
       ) : null}
       <span className={isBroken ? 'logo-name' : 'sr-only'}>{logo.name}</span>
     </div>

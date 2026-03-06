@@ -1,4 +1,5 @@
 import BrandLogo from '@/components/landing/BrandLogo';
+import CtaArrowIcon from '@/components/landing/CtaArrowIcon';
 import Section from '@/components/landing/Section';
 import { landingAssets } from '@/lib/landingAssets';
 import ThankYouRedirect from '@/app/thank-you/ThankYouRedirect';
@@ -43,7 +44,7 @@ export default function ThankYouB2BContentPage() {
             <div className="thank-you-actions">
               <a className="cta-button thank-you-cta" href={YOUTUBE_URL}>
                 <span>Watch our YouTube</span>
-                <span className="cta-arrow-icon" aria-hidden="true" />
+                <CtaArrowIcon />
               </a>
               <ThankYouRedirect href={YOUTUBE_URL} delayMs={20000} />
             </div>
